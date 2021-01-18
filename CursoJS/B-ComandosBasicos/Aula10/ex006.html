@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background-color: rgb(160, 161, 235);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1> Iniciando os estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em mim</div>
+    <script>   
+    /*Arvore DOM 
+                        window
+            location  document      History
+                        html
+                    head    body
+            meta title      h1    p     div
+                                strong
+
+    */
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1] //[0] busca o primeiro 
+        window.document.write('Está escrito assim: ' + p1.innerText)
+        p1.style.color = 'red'
+        corpo.style.background = 'black'
+       /* document.write(p1.innerHTML)// pega todo o conteudo do que foi escrito no HTML junto com suas tags
+        document.write(p1.innerText)// aqui busca apenas o texto
+        var d = window.document.getElementById('msg')
+        d.style.background = 'green'
+        d.innerText = 'Estou aguardando...'*/
+        var f = window.document.querySelector('div#msg') // # pra div e . pra classe ex: div.msg ou div#msg -> <div class="msg">
+        f.style.color = 'blue'
+    //getElementbyTagName() - Por Marca
+    //getElementByID()        Por ID
+
+    </script>
+
+    
+</body>
+</html>

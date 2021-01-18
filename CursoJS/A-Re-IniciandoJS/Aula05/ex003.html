@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: blue; /* Comentário em CSS */
+            color: white;
+        }
+        h1 {
+            color: rgb(255, 212, 22);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!-- comentário em html-->
+    <p>Já me livrei da maldição</p>
+
+    <script>
+        let n1 = Number.parseFloat(window.prompt('Digite um numero:')) // converte para numero para depois atribuir na variável
+        let n2 = Number(window.prompt('Digite outro numero:')) // converte para numero para depois atribuir na variável
+        /* conversão para numeros
+        Number.parseInt || Number.parseFloat || Number(n)
+        */
+       /* Conversão para String
+       String(n) || n.toString()
+       */
+        let s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+        //(number + number) para adição
+        //(string + string) para concatenação
+        // 'Eu estou aprendendo' + s
+        //`Eu estou aprendendo ${s}`
+
+        /* atributos da string
+        s.lenght
+        s.toUpperCase()
+        s.toLowerCase()
+        */
+    </script>
+</body>
+</html>

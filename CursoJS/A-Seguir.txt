@@ -1,0 +1,23 @@
+Continuação dos estudos pós curso JS
+
+Realizar o curso de HTML5 e CSS3 para ficar bem completão e seguindo para:
+
+-> functions
+-> arrow function
+-> callbacks
+-> funções anonimas 
+
+
+-> objetos
+
+-> modularização de código
+
+-> RegEx (expressão regular)
+
+-> JSON
+
+-> AJAX
+
+-> NodeJS
+
+-> REACT e REACTNATIVE
